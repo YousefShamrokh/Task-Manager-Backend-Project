@@ -8,7 +8,7 @@ const app = express()
 app.use(bodyParser.json())
 
 const port = 5300
-const url = "mongodb+srv://yousefshamrokh:yousef2612@projectzero.bsbtk.mongodb.net/test";
+const url = ""; // add your Database url here
 const  connectToDB = async () => {
     try {
        mongoose.set('strictQuery', false)
